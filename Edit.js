@@ -16,7 +16,7 @@ const Edit = ({navigation, route}) => {
                 onChangeText={(text) => setLetter(text)}/>
             <Picker onValueChange={(text) => setType(text)}>
                 <Picker.Item label='Vowels' value='Vowels'/>
-                <Picker.Item lebel='Consonants' value='Consonants'/>
+                <Picker.Item label='Consonants' value='Consonants'/>
             </Picker>
             <Button title="Save" onPress={() => {
                 let indexnum = 1;
